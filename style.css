@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.gulnaz-aside{
+    background-color: rgba(17, 24, 39, 1);
+    width: 16%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gulnaz-aside-main{
+    width: 100%;
+    height: 60%;
+    /* background-color: antiquewhite; */
+    padding: 10px 0;
+
+}
+
+.gulnaz-first-item{
+    height: 35%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: blue; */
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(54, 54, 78, 0.664);
+    
+}
+
+.gulnaz-img{
+    width: 100%;
+    cursor: pointer;
+
+}
+
+.acme_inc{
+    height: 55%;
+    width: 90%;
+    background-color: rgba(54, 54, 78, 0.664) ;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.gulnaz-text-item1{
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 150%;
+color: white;
+}
+
+.gulnaz-text-item2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 157%;
+color: #9CA3AF;
+
+}
+
+.gulnaz-second-item{
+    margin: 10px;
+}
+
+.gulnaz-item{
+    height: 35px;
+    width: 100%;
+    /* background-color: tomato; */
+    border-radius: 10px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 0 10px ;
+    margin: 5px 0;
+    transition:0.2s ease ;
+    cursor: pointer;
+}
+
+.gulnaz-item:hover{
+    background-color: rgba(54, 54, 78, 0.664) ;
+}
+
+.gulnaz-noun-item{
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+color: rgba(209, 213, 219, 1);
+}
+
+.gulnaz-adver{
+    width: 100%;
+    height: 30%;
+    border-top: 1px solid rgba(54, 54, 78, 0.664);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gulnaz-img-tilt{
+    width: 70%;
+}
+
+.gulnaz-btn{
+    width: 90%;
+    height: 50px;
+    background-color: rgba(16, 185, 129, 1);
+    border-radius: 7px;
+    border: none;
+    color: white;
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+cursor: pointer;
+margin-top: 7px ;
+}
+
+
+.gulnaz-onclick .gulnaz-img-item{
+    fill: tomato;
+}
